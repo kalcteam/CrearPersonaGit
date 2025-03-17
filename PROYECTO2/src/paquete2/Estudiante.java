@@ -15,4 +15,12 @@ public class Estudiante extends Persona{
 		System.out.println("Edad: "+super.getEdad());
 		System.out.println("Matricula: "+matricula);
 	}
+
+	public String getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
 }
