@@ -15,6 +15,8 @@ public class CrearPersona {
 		
 		Estudiante estudiante1 = new Estudiante("Paco",19,"A1B2C3");
 		estudiante1.mostrarInformacion();
+		Estudiante estudiante2 = new Estudiante("Pedro",20,"S2F6H7");
+		estudiante2.mostrarInformacion();
 	}
 
 }
